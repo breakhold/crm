@@ -63,6 +63,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#A1A9EF",
   },
   input: {
+    fontFamily:'Avenir Next',fontSize:18,
     elevation: 2,
     // backgroundColor: '#fff',
     //marginHorizontal: 5,
@@ -433,6 +434,7 @@ const styles = StyleSheet.create({
     flex: 1.1,
     fontSize: 18,
     fontWeight: "bold",
+    marginTop:20
   },
 
   searchInput: {

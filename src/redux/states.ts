@@ -98,8 +98,11 @@ export interface State {
 
 export interface AddOrder
   {
-    isSuccess: boolean,
-    AddOrderMessage: string,
+    isSuccess: boolean;
+    AddOrderMessage: string;
+    isTried : boolean;
+    isLoading : boolean;
+
   }
 
   export interface ProductEdit
@@ -138,6 +141,8 @@ export interface ProductForCustomer{
 export interface OrderDelete
   {
     isSuccess: boolean;
+    Message: string;
+    
   }
 
   export interface EditOrder
